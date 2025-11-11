@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paaste</title>
+
+  <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div id="logo">
+        <img src="image-1.svg" alt="Logo">
+      </div>
+      <i class="ri-sun-line theme-btn"></i>
+    </div>
+
+    <!-- INPUTS -->
+    <input type="text" id="title" maxlength="15" placeholder="Enter your title (max 15 letters)" />
+
+    <textarea id="description" placeholder="Write your description here..."></textarea>
+
+    <button class="create-btn" id="createBtn">CREATE</button>
+
+    <!-- NOTES LIST -->
+    <div id="notesList"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
